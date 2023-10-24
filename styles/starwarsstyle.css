@@ -1,0 +1,43 @@
+body {
+    font-family: "Star Jedi", sans-serif;
+    background: url('star-wars-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: yellow;
+    text-shadow: 1px 1px 2px black;
+    background-color: rgb(80, 74, 74);
+    text-align: center;
+}
+
+h1, h2 {
+    color: yellow;
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+}
+
+button {
+    background: black;
+    color: yellow;
+    text-shadow: 1px 1px 2px black;
+    border: 2px solid yellow;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: yellow;
+    transform: scale(1.05);
+}
+
+ul {
+    list-style-type: decimal-leading-zero;
+    color: yellow;
+    text-shadow: 1px 1px 2px black;
+    transition: transform 0.5s ease;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
